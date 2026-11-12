@@ -222,7 +222,7 @@ MIIJQwIBADANBgkqhkiG9w0BAQEFAASCCS0wggkpAgEAAoICAQDdRnQzcvgr5aMze+RtCfOjMeD9xFsR
 
             if "?" in no_frag or "=" in payload:
                 parsed = urllib.parse.urlparse(no_frag)
-                qs = urllib.parse.parseqs(parsed.query)
+                qs = urllib.parse.parse_qs(parsed.query)
                 res = {"protocol": proto_name}
                 if parsed.netloc and parsed.netloc.lower() != "config": res["host"] = parsed.netloc
                 for k, v in qs.items(): res[k] = urllib.parse.unquote(v[0]) if len(v) == 1 else v
