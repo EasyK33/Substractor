@@ -582,7 +582,7 @@ class SubstractorApp(ctk.CTk):
         self.frame_footer = ctk.CTkFrame(self, fg_color="transparent")
         self.frame_footer.pack(fill="x", padx=20, pady=(0, 10))
         
-        ctk.CTkLabel(self.frame_footer, text="Программа разработана EasyK. Приятного использования!", font=ctk.CTkFont(size=11), text_color="gray").pack(side="left", pady=5)
+        ctk.CTkLabel(self.frame_footer, text="Программа разработана EasyK. Версия 1.1. Приятного использования!", font=ctk.CTkFont(size=11), text_color="gray").pack(side="left", pady=5)
 
         self.btn_export = ctk.CTkButton(self.frame_footer, text="💾 Сохранить видимые сервера в .txt", width=220, height=32, fg_color="#2b8a3e", hover_color="#237032", font=ctk.CTkFont(weight="bold"), command=self.export_to_txt)
         self.btn_export.pack(side="right")

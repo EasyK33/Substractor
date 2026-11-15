@@ -1,4 +1,6 @@
 # Substractor
+![Загрузок](https://img.shields.io/github/downloads/EasyK33/Substractor/total?style=for-the-badge&color=2b8a3e)
+![Скриншот программы Substractor](assets/preview.png)
 
 **Substractor** — это удобная desktop-утилита для парсинга, фильтрации и тестирования прокси-подписок. Программа написана на Python и обладает современным графическим интерфейсом на базе CustomTkinter.
 
